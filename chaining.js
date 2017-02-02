@@ -11,6 +11,9 @@ Then output (either in the DOM or the console) the sum of all the resulting numb
 
 var doneZo = integers.sort(function(a, b){return b - a}).splice(4, 10).map(function(num){return (num * 1.5) - 1}).reduce(function(a, b){return a + b});
 console.log("The finished product: ", doneZo);
+
+
+//////////////////Below are the steps I took in building the above chain/////////////////////// 
 // var sorted = integers.sort(function(a, b){return b - a}).splice(4, 10).map(function(num){return (num * 1.5) - 1}).reduce(function(a, b){return a + b});
 // var taken = sorted.splice(4, 10);
 // var multiplied = sorted.map(function(num){return (num * 1.5) - 1});
